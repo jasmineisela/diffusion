@@ -1,0 +1,214 @@
+    1  pwd
+    2  ls
+    3  cd
+    4  cd data
+    5  pwd
+    6  ls
+    7  cd..
+    8  cd ..
+    9  pwd
+   10  mkdir foo
+   11  ls
+   12  ls -l
+   13  $ld
+   14  ls
+   15  ls foo
+   16  rmdirfoo
+   17  rmdir foo
+   18  ls
+   19  history
+   20  history > history.txt
+   21  git --version
+   22  git config --global user.name "
+   23  $ git config --global user.name "YOUR NAME"
+   24  $ git config --global user.email "YOUR EMAIL"
+   25  [200~$ git config --global user.name "YOUR NAME"
+   26  git --version
+   27  git config --global user.name "Jasmine Rodriguez"
+   28  git config --global user.email "jir85@txstate.edu"
+   29  git config --list
+   30  ls.ssh
+   31  ls .ssh
+   32  cd . ssh/
+   33  cd .ssh/
+   34  cd 
+   35  git clone git@github.com:jasmineisela/diffusion.git
+   36  ls
+   37  cd .diffusion
+   38  cd ..diffusion
+   39  cd . diffusion/
+   40  cd diffusion/
+   41  ls
+   42  cd
+   43  ls
+   44  mv Diffusion.ipynb diffusion/
+   45  cd diffusion/
+   46  ls
+   47  mkdir notebooks
+   48  ls
+   49  mv Diffusion.ipynb notebooks/
+   50  ls
+   51  ls notebooks
+   52  git status
+   53  git add notebooks/
+   54  git status
+   55  git commit -m "Add our diffusion notebook"
+   56  git status
+   57  git push 
+   58  cd notebooks/
+   59  pwd
+   60  cd
+   61  cd diffusion/
+   62  git add diffusion-model.py
+   63  git add Diffusion.py
+   64  pwd
+   65  sit status
+   66  git status
+   67  git commit m- "add python source script for model"
+   68  git status
+   69  git commit m- "Add python source scrpit for model"
+   70  pwd
+   71  ls
+   72  git add Diffusion.py 
+   73  git status
+   74  git commit m- "Add python source scrpit for model"
+   75  git restore Diffusion.py 
+   76  git commit m- "Add python source scrpit for model"
+   77  ls
+   78  git status
+   79  git commit Diffusion.py -m"Remove all comments from script"
+   80  git status
+   81  git diff
+   82  git commit m-"all extra noise removed"
+   83  git commit -m "all extra noise removed"
+   84  git status
+   85  git commit -m "all extra noise removed"
+   86  git diff
+   87  git log --oneline
+   88  git status
+   89  git commit Diffusion.py -m "final removal"
+   90  git status
+   91  git push
+   92  conda env list
+   93  conda list -n csdms
+   94  conda list
+   95  source activate csdms
+   96  which python
+   97  python
+   98  deactivate
+   99  conda deactivate
+  100  python -m venv model-env
+  101  ls
+  102  tree model-env/
+  103  source model-env/bin/activate 
+  104  which python
+  105  deactivate
+  106  which python
+  107  source model-env/bin/activate 
+  108  pip list
+  109  pip install numpy matplotlib
+  110  pip install pytest
+  111  pip list
+  112  ls
+  113  touch test_diffusion.py
+  114  ls
+  115  mv test_diffusion.py diffusion_test.py
+  116  pytest -v
+  117  git add diffusion_test.py 
+  118  git status
+  119  git commit -m "start moduralizing and testing diffusion model" 
+  120  git add Diffusion.py
+  121  git commit
+  122  git status
+  123  git push
+  124  l
+  125  history > codefromfirstday.txt
+  126  history
+  127  pwd
+  128  ls
+  129  cd
+  130  cd diffusion/
+  131  rm -r model-env/ 
+  132  ls
+  133  python -m venv venv
+  134  ls
+  135  git status
+  136  source venv/bin/activate
+  137  which pip
+  138  pip install pytest
+  139  pip list
+  140  pip install numpy matplotlib
+  141  pip list
+  142  pytest -v
+  143  git status
+  144  git commit
+  145  git commit diffusion_test.py  -m "Add tests for initial profile and model grid"
+  146  git status
+  147  git commit Diffusion.py -m "Complete modularization of model script"
+  148  git status
+  149  git add codefromfirstday.txt 
+  150  git commit codefromfirstday.txt m- "history"
+  151  git commit codefromfirstday.txt m- "history of code"
+  152  git commit codefromfirstday.tx -m  "history of code"
+  153  git status
+  154  git commit code codefromfirstday.txt -m "history of code'
+  155  git commit code codefromfirstday.txt -m "history of code"
+  156  git commit codefromfirstday.txt -m "history of code
+  157  git commit codefromfirstday.txt -m "history of code"
+  158  git status
+  159  python Diffusion.py 
+  160  ls
+  161  mkd tests
+  162  mkdir tests
+  163  git status
+  164  gitdiff  Diffusion.py
+  165  git diff  Diffusion.py
+  166  git commit Diffusion.py -m "Set up sample main program"
+  167  ls
+  168  git mv diffusion_test.py tests/
+  169  ls
+  170  ls tests
+  171  mkdir txst_diffusion
+  172  ls
+  173  git mv Diffusion.py txst_diffusion/
+  174  ls
+  175  ls txst_diffusion/
+  176  git status
+  177  ls
+  178  cd txst_diffusion/
+  179  ls
+  180  touch __init__.py
+  181  ls
+  182  cd ..
+  183  touch pyproject.toml
+  184  ls
+  185  which pip
+  186  pip list
+  187  ls
+  188  pip install --edittable .
+  189  pip install --editable .
+  190  pip list
+  191  git status
+  192  git add pyproject.toml txst_diffusion/__init__.py 
+  193  git status
+  194  git commit -m "Package the diffusion model"
+  195  git status
+  196  ls
+  197  pushd ~ 
+  198  pwd
+  199  dirs -v
+  200  which python
+  201  python 
+  202  ls
+  203  pwd
+  204  cd diffusion/
+  205  ls
+  206  cd txst_diffusion
+  207  ls
+  208  cd ..
+  209  python
+  210  git status
+  211  git push
+  212  cd ..
+  213  cd diffusion/
+  214  history > day2history.txt
