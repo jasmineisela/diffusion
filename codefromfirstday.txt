@@ -1,0 +1,128 @@
+    1  pwd
+    2  ls
+    3  cd
+    4  cd data
+    5  pwd
+    6  ls
+    7  cd..
+    8  cd ..
+    9  pwd
+   10  mkdir foo
+   11  ls
+   12  ls -l
+   13  $ld
+   14  ls
+   15  ls foo
+   16  rmdirfoo
+   17  rmdir foo
+   18  ls
+   19  history
+   20  history > history.txt
+   21  git --version
+   22  git config --global user.name "
+$ git config --global user.name "YOUR NAME"
+$ git config --global user.email "YOUR EMAIL"
+[200~$ git config --global user.name "YOUR NAME"
+git --version
+
+
+
+   23  git config --global user.name "Jasmine Rodriguez"
+   24  git config --global user.email "jir85@txstate.edu"
+   25  git config --list
+   26  ls.ssh
+   27  ls .ssh
+   28  cd . ssh/
+   29  cd .ssh/
+   30  cd 
+   31  git clone git@github.com:jasmineisela/diffusion.git
+   32  ls
+   33  cd .diffusion
+   34  cd ..diffusion
+   35  cd . diffusion/
+   36  cd diffusion/
+   37  ls
+   38  cd
+   39  ls
+   40  mv Diffusion.ipynb diffusion/
+   41  cd diffusion/
+   42  ls
+   43  mkdir notebooks
+   44  ls
+   45  mv Diffusion.ipynb notebooks/
+   46  ls
+   47  ls notebooks
+   48  git status
+   49  git add notebooks/
+   50  git status
+   51  git commit -m "Add our diffusion notebook"
+   52  git status
+   53  git push 
+   54  cd notebooks/
+   55  pwd
+   56  cd
+   57  cd diffusion/
+   58  git add diffusion-model.py
+   59  git add Diffusion.py
+   60  pwd
+   61  sit status
+   62  git status
+   63  git commit m- "add python source script for model"
+   64  git status
+   65  git commit m- "Add python source scrpit for model"
+   66  pwd
+   67  ls
+   68  git add Diffusion.py 
+   69  git status
+   70  git commit m- "Add python source scrpit for model"
+   71  git restore Diffusion.py 
+   72  git commit m- "Add python source scrpit for model"
+   73  ls
+   74  git status
+   75  git commit Diffusion.py -m"Remove all comments from script"
+   76  git status
+   77  git diff
+   78  git commit m-"all extra noise removed"
+   79  git commit -m "all extra noise removed"
+   80  git status
+   81  git commit -m "all extra noise removed"
+   82  git diff
+   83  git log --oneline
+   84  git status
+   85  git commit Diffusion.py -m "final removal"
+   86  git status
+   87  git push
+   88  conda env list
+   89  conda list -n csdms
+   90  conda list
+   91  source activate csdms
+   92  which python
+   93  python
+   94  deactivate
+   95  conda deactivate
+   96  python -m venv model-env
+   97  ls
+   98  tree model-env/
+   99  source model-env/bin/activate 
+  100  which python
+  101  deactivate
+  102  which python
+  103  source model-env/bin/activate 
+  104  pip list
+  105  pip install numpy matplotlib
+  106  pip install pytest
+  107  pip list
+  108  ls
+  109  touch test_diffusion.py
+  110  ls
+  111  mv test_diffusion.py diffusion_test.py
+  112  pytest -v
+  113  git add diffusion_test.py 
+  114  git status
+  115  git commit -m "start moduralizing and testing diffusion model" 
+  116  git add Diffusion.py
+  117  git commit
+  118  git status
+  119  git push
+  120  l
+  121  history > codefromfirstday.txt
